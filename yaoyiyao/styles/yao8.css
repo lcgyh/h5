@@ -1,0 +1,36 @@
+/*
+* @Author: d
+* @Date:   2017-01-20 12:22:00
+* @Last Modified by:   lichen
+* @Last Modified time: 2017-03-07 11:37:48
+*/
+
+html,body{font-size:50px;width: 100%;overflow-x: hidden;height: 100%;max-width: 720px;margin: 0 auto;background:url(http://olke0p1wa.bkt.clouddn.com/bg.jpg) no-repeat center center;background-size: 100% 100%;}
+@media only screen and (min-width: 375px){ html {font-size: 58px !important;}}
+@media only screen and (min-width: 401px){html {font-size: 65.5px !important;}}
+.con{width: 100%;overflow:hidden;position: relative;padding-top: 1.3rem;}
+.content{width: 5.6rem;background: rgba(255, 255, 255, 0.7);overflow:hidden;margin: 0 auto;border-radius: 10px;}
+.content .title{font-size: 0.36rem;color: #191b1a;text-align: center;margin:0.48rem 0;}
+.content .des{color: #191b1a;font-size: 0.26rem;text-align: center;padding: 0 0.4rem;}
+.main{width: 2.45rem;height: 4.57rem;margin: 0 auto;margin-top: 0.66rem;margin-bottom: 1.52rem;}
+.main img{width: 100%;vertical-align: top;}
+.on{animation: wobble 0.8s steps(5) infinite; -webkit-animation: wobble 0.8s steps(5) infinite}
+
+/* 返回按钮 */
+.return_back{width: 0.48rem;height: 0.48rem;position: absolute;left: 20px;top: 20px;}
+.return_back img{width: 100%;vertical-align: top;}
+/* 弹窗 */
+.post{width: 5.6rem;background: #fff;position: fixed;z-index: 2000;top:25%;left: 50%;margin-left: -2.8rem;border-radius: 10px;padding-bottom: 0.5rem;}
+.post p{color: #6a6c6b;font-size: 0.24rem;padding: 0 0.8rem;margin:1.48rem 0 0.88rem;}
+.over_botton{width: 4.05rem;height: 0.8rem;background: #94d5cf;font-size: 0.3rem;text-align: center;line-height: 0.8rem;color: #fff;border-radius: 10px;margin: 0 auto;}  
+        
+@-webkit-keyframes 'wobble' {
+    	from {
+        transform:rotate(-20deg);
+     }
+     to{
+         transform:rotate(40deg);
+     }
+     
+  }
+
